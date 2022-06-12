@@ -15,6 +15,7 @@
 @import './sections/specialchecks';
 @import './sections/garanty';
 @import './sections/distance-services';
+@import './sections/def-slider';
 
 
 // .container {
@@ -71,4 +72,14 @@ h6,
 p {
     margin-top: 0;
     margin-bottom: 0;
+}
+.ibg{
+    background-position: center;
+    background-repeat: no-repeat;
+    &--contain{
+        background-size: contain;
+    }
+    &--cover{
+        background-size: cover;
+    }
 }
