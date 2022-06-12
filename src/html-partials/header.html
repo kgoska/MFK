@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="mfk-bank" content="width=device-width, initial-scale=1.0">
+    <title>MFK</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header class="header ">
+        <section class="container">
+            <div class="header-section">
+                <div class="logo" id="logo-head">
+                    <img class="logo-picture" src="./img/images/logo1.png" alt="logotype" />
+                    <span class="logo-title">
+                        <p>международный <br>финансовый<br>клуб</p>
+                    </span>
+                </div>
+                <div class="about" id="about">
+                    <ul class="about-list">
+                        <li>
+                            <a class="about-link" href="#">О банке</a>
+                        </li>
+                        <li>
+                            <a class="about-link" href="#">Банковская группа</a>
+                        </li>
+                        <li>
+                            <a class="about-link" href="#">Новости</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contacts" id="contacts">
+                    <a class="contacts-link" href="tel:+7495287-02-60">
+                        <svg class="contacts-image">
+                            <use href="./img/svg/sprite/symbol-defs.svg#icon-phone"></use>
+                        </img/svg>
+                        <span class="numder-head">+7 495 287-02-60</span>
+                    </a>
+                </div>
+                <div class="page-sector" id="corporative-head">
+                    <a class="pages-link current" href="./accountopen.html">Корпоративным клиентам</a>
+                </div>
+                <div class="page-sector" id="private-client-head">
+                    <a class="pages-link" href="#">Частным клиентам</a>
+                </div>
+                <div class="page-sector" id="private-banking-head">
+                    <a class="pages-link" href="#">Private banking</a>
+                </div>
+                <div class="search-box" id="search-box">
+                    <form class="search-form-action">
+                        <input class="search-form-input" type="search" placeholder="Поиск" color="white" />
+                        <button class="search-btn" type="button" aria-label="search">
+                            <svg class="search-icon">
+                                <use href="./img/svg/sprite/symbol-defs.svg#icon-search" />
+                            </img/svg>
+                        </button>
+                    </form>
+                </div>
+                <button type="button" class="bank-btn"id="online-head">Онлайн - банк</button>
+                <button class="menu__toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg class="menu__svg">
+                        <use href="./img/svg/sprite/symbol-defs.svg#icon-menu"></use>
+                    </img/svg>
+                </button>
+            </div>
+            
+            <div class="mobile__container js-menu-container" id="mobile-menu">
+                <div class="mobile__header">
+                    <div class="logo-mobile">
+                        <img class="logo-picture" src="./img/images/logo1.png" alt="logotype" />
+                        <span class="logo-title">
+                            <p>международный <br>финансовый<br>клуб</p>
+                        </span>
+                    </div>
+                    <button class="mobile__toggle js-close-menu">
+                        <svg class="mobile__svg">
+                            <use href="./img/svg/sprite/symbol-defs.svg#icon-close-menu"></use>
+                        </img/svg>
+                    </button>
+                </div>
+                <div class="mobile__menu">
+                    <div class="">
+                        <ul class="mobile__list">
+                            <li class="mobile__list-item">
+                                <a href="./accountopen.html" class="mobile__list-link current-position">Корпоративным клиентам</a>
+                                <img class="mobile__list-picture" src="./img/icons/ARROW.png" alt="arrow">
+                            </li>
+                            <li class="mobile__list-item">
+                                <a href="#" class="mobile__list-link">Частным клиентам </a>
+                            </li>
+                            <li class="mobile__list-item">
+                                <a href="#" class="mobile__list-link">Private banking</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="mobile__menu-list">
+                        <li class="mobile__menu-item border-gradient border-gradient-color">
+                            <a href="#" class="mobile__menu-link">Онлайн - банк</a>
+                        </li>
+                        <li class="mobile__menu-item border-gradient border-gradient-color">
+                            <a href="#" class="mobile__menu-link">Банковская группа</a>
+                        </li>
+                        <li class="mobile__menu-item border-gradient border-gradient-color">
+                            <a href="#" class="mobile__menu-link">Новости</a>
+                        </li>
+                        <li class="mobile__menu-item border-gradient border-gradient-color">
+                            <a href="#" class="mobile__menu-link">Поиск</a>
+                        </li>
+                        <li class="mobile__menu-item border-gradient border-gradient-color">
+                            <a href="#" class="mobile__menu-link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>

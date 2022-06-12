@@ -1,0 +1,205 @@
+
+.second__title-credits{
+    display: flex;
+    margin-bottom: 61px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #003772;
+}
+.second__text-credits__list{
+    margin-bottom: 60px;
+    @media screen and (max-width: 767px) {
+        margin:  18px 0px 23px 19px;
+    }
+}
+.second__text-credits{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #001843;
+    // margin: 0px 15px;
+}
+.current-second__text-credits{
+    color: #747474;
+}
+.credits{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.credits__money{
+    display: flex;
+}
+.credits__button{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #002E82;
+    box-shadow: 0px 4px 4px rgba(107, 107, 107, 0.1);
+}
+.credits__kind{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 400px;
+    height: auto;
+    left: 85px;
+    top: 453px;
+
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+}
+.credits__img {
+    width: 362px;
+    height: 172px;
+    margin: 20px 20px 40px 20px;
+}
+.credits__title{
+    margin: 0px 30px 25px 50px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #00205B;
+}
+.credits__check {
+    display: inline-block;
+    align-items: center;
+    flex-grow: 1;
+    min-height: 3em;
+    margin: 0px 40px 0px 20px;
+    list-style: circle;
+}
+.credits__check-item{
+    align-items: center;
+    list-style: circle;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4E4E4E;
+}
+
+.credits__calendar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.credits__svg{
+    fill: #002E82;
+    width:22px;
+    height: 22px;
+}
+.credits__text{
+    margin-left: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color:#002E82;
+}
+.credits__recive {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.credite-kinds__documents {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+}
+.rates {
+    display: flex;
+    margin-bottom: 90px;
+    @media screen and (max-width: 767px) {
+        display: block;
+        margin-bottom: 62px;
+    }
+}
+
+
+.rates__link-item{
+    display: flex;
+    align-content: center;
+    padding: 50px 50px 50px 30px;
+    height: auto;
+    margin-right: 50px;
+    background: #00205B;
+    border-radius: 5px;
+    @media screen and (max-width: 767px) {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+}
+.rates__link{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    
+}
+.rates__svg{
+    margin-left: 30px;
+    width: 11px;
+    height: 22px;
+}
+.rates__item-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+}
+.rates__contacts{
+    margin: 15px 35px;
+    @media screen and (max-width: 767px) {
+        display: flex;
+    }
+}
+.rates__title {
+    margin-bottom: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #00205B;
+    @media screen and (max-width: 767px) {
+        margin-right: 28px;
+    }
+}
+.rates__text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #777777;
+}
