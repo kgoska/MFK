@@ -1,5 +1,7 @@
 .menu__toggle,
 .menu__mobile {
+    grid-column: 6/7;
+    grid-row: 1/2;
     height: 40px;
     width: 40px;
     display: flex;
@@ -30,6 +32,9 @@
 .logo-mobile{
         display: flex;
         align-items: center;
+        @media screen and (max-width:767px) {
+            
+        }
 }
 .mobile {
     &__header{
