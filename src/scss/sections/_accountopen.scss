@@ -27,12 +27,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 145px;
+    margin-right: 10px;
     @media  screen and (max-width: 767px) {
         margin-right: 0px;
         margin-bottom: 40px;
     }
 }
+@media screen and (max-width: 767px) {
+    .operations__documentation-Link__list.account{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+}
+
 .accountopen__check{
     margin-right: 25px;
 }
