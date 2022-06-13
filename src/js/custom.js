@@ -68,7 +68,7 @@ $(document).ready(function (){
 			}
 		]
 	});
-	$(".ved-slider").slick({
+	$(".ved-block-slider").slick({
 		arrows:false,
 		dots:true,
 		infinite: false,
