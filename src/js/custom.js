@@ -68,6 +68,29 @@ $(document).ready(function (){
 			}
 		]
 	});
+	$(".ved-slider").slick({
+		arrows:false,
+		dots:true,
+		infinite: false,
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1440,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				}
+			},{
+				breakpoint: 500,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					
+				}
+			}
+		]
+	});
 	ibg();
 	RatioW();
 	RatioH();
