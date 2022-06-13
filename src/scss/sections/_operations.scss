@@ -20,6 +20,9 @@
         display: none;
     }
 }
+.operations__item:last-child{
+    flex-grow: 1;
+}
 .operations__item:not(:last-child){
     padding-right: 15px;
 }
