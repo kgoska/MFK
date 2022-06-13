@@ -44,6 +44,7 @@ $(document).ready(function (){
 		infinite: false,
 		slidesToShow: 3,
 		slidesToScroll: 1,
+		adaptiveHeight: true,
 		responsive: [
 			{
 				breakpoint: 1440,
@@ -62,6 +63,7 @@ $(document).ready(function (){
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
+					
 				}
 			}
 		]

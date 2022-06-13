@@ -40,6 +40,7 @@
 		}
 	}
 	&__slide {
+		height: auto;
 	}
 	&__card-wrapper {
 		width: 100%;
@@ -279,6 +280,7 @@
 	flex-direction: column;
 	align-content: center;
 	align-items: center;
+	padding: 15px;
 	margin-bottom: 70px;
 	background: #FFFFFF;
 	border: 1px solid #D1D1D1;

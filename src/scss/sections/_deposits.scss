@@ -329,7 +329,7 @@
 .deposite-kinds__documentation{
     display: flex;
     margin-top: 41px; 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 992px) {
         flex-direction: column;
     }
 }
@@ -350,13 +350,17 @@
     align-items: center;
     padding: 41px 13px 50px 30px;
     border-left:1px solid #333333;
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 992px) {
         flex-direction: column;
         border: none;
+        align-items:stretch;
     }
 }
 .documentation__item{
-   margin-left: 55px;
+    margin-left: 55px;
+    @media screen and (max-width: 992px) {
+        margin: 0;
+    }
 }
 .documentation__kind{
     display: flex;
