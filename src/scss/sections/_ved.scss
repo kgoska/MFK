@@ -1,19 +1,19 @@
-// .ved{
-//     display: flex;
-//     flex-direction: column;
-//     align-items: stretch;
-//     margin-bottom: 60px;
-//     @media screen and (max-width: 992px) {
-//         display: block;
-// }
-// }
-// .ved__kind{
-//     display: flex;
-//     justify-content: space-between;
-//     @media screen and (max-width: 767px) {
-//         display: block;
-//     }
-// }
+.ved{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 60px;
+    @media screen and (max-width: 992px) {
+        display: block;
+}
+}
+.ved__kind{
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 767px) {
+        display: block;
+    }
+}
 // .ved-item{
 //     display: flex;
 //     flex-grow: 1;
@@ -101,7 +101,7 @@
 // }
 
 
-.ved {
+.ved-block {
 	--mobile-outer-padding: 20px 20px;
 	min-width: 0;
 	margin-bottom: 75px;
