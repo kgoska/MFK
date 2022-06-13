@@ -137,4 +137,32 @@
 .def-slider.dots .slick-dots li.slick-active button {
   border: 8px solid transparent;
 }
+
+@media screen and (min-width: 1440px) {
+  .card-slider.desktop-dots-disable .slick-dots {
+    display: none !important;
+  }
+}
+
+.card-slider__slide {
+  height: auto;
+}
+
+.card-slider__content-wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: var(--desktop-outer-padding, 0px 40px);
+}
+
+@media screen and (max-width: 576px) {
+  .card-slider__content-wrapper {
+    padding: var(--mobile-outer-padding, 20px 40px);
+  }
+}
 /*# sourceMappingURL=def-slider.css.map */
