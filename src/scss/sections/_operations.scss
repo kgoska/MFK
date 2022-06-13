@@ -22,6 +22,7 @@
 }
 .operations__item:last-child{
     flex-grow: 1;
+    min-width: 0;
 }
 .operations__item:not(:last-child){
     padding-right: 15px;

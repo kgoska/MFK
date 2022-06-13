@@ -30,29 +30,9 @@
 .current-second__text-credits{
 	color: #747474;
 }
+
 .credits {
 	margin-bottom: 75px;
-	&__slider {
-		@media screen and (min-width: 1440px) {
-			.slick-dots{
-				display: none !important;
-			}
-		}
-	}
-	&__slide {
-		height: auto;
-	}
-	&__card-wrapper {
-		width: 100%;
-		height: 100%;
-		display: flex;
-		justify-content: center;
-		//margin: 20px 0;
-		padding: 0 40px;
-		@media screen and (max-width: 576px) {
-			padding: 20px 40px;
-		}
-	}
 	&__card {
 		flex: 0 0 400px;
 		height: 700px;
@@ -140,7 +120,10 @@
 		}
 		&:hover{
 			&:before{
-				border: 8px solid transparent;
+				@media not screen and (hover: none) and (pointer: coarse){
+					border: 8px solid transparent;
+				}
+				
 			}
 		}
 	}
