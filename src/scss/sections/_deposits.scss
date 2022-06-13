@@ -45,7 +45,7 @@
 .second__title {
     
     @media screen and (max-width: 767px) {
-        background-image: url('../../src/images/main-deposite.jpg');
+        background-image: url('../../../dist/img/images/main-deposite.jpg');
         background-size: cover;
         height: 153px;
     }
@@ -282,7 +282,7 @@
     color: #00205B;
     margin-left: 10px;
     @media  screen and (max-width: 1439px) {
-        font-size: 42px;
+        font-size: 40px;
         line-height: 50px;
     }
     @media screen and (max-width: 767px) {
