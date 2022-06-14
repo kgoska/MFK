@@ -262,7 +262,7 @@
     @media screen and (max-width: 767px) {
         grid-column: 2/3;
         grid-row: 5/6;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 }
 #check2{
@@ -272,7 +272,7 @@
     @media screen and (max-width: 767px) {
         grid-column: 2/3;
         grid-row: 4/5;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 }
 #check3{
@@ -282,7 +282,7 @@
     @media screen and (max-width: 767px) {
         grid-column: 2/3;
         grid-row: 3/4;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 }
 #btn{
