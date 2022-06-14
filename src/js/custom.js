@@ -17,7 +17,7 @@ function RatioW(){
 		if(ratioMultiplier == "undefined"){
 			ratioMultiplier = 1;
 		}
-		
+		console.log(ratioMultiplier);
 		$(this).css("height", (parseFloat($(this).css("width")) * ratioMultiplier).toString() + "px");
 	});
 }
