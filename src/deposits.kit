@@ -18,50 +18,46 @@
             </div>
             <div>
                 <div class="filter__content">
-                    <ul class="filter__list">
-                        <li class="filter__item">
-                            <input class="checkbox" type="checkbox" name="filter" id="vostrebovanie">
-                            <label for="vostrebovanie">Досрочное полное востребование</label>
-                        </li>
-                        <li class="filter__item">
-                            <input class="checkbox" type="checkbox" name="filter" id="vznos">
-                            <label for="vznos">Дополнительные взносы</label>
-                        </li>
-                        <li class="filter__item">
-                            <input class="checkbox" type="checkbox" name="filter" id="partvostrebovanie">
-                            <label for="partvostrebovanie">Частичное востребование</label>
-                        </li>
-                    </ul>
-                    <div class="filter__option-list">
-                        <div class="fiter__option-item">
-                            <form class="filter__option-form" 
-                                onchange="output.value = parseInt(rangeField.value)"
-                                oninput="changeVar(rangeField.value,rangeField.min,rangeField.max)">
-                                <label class="sliderBar">Хочу вложить
-                                    <output id="output" value="1">1</output>
-                                    <span class="">
-                                        тыс. рублей
-                                    </span>
-                                </label>    
-                                <input id="rangeField" type="range" list="mydata" min="0" max="100" value="1" step="1">
-                            </form>
-                        </div>
-                        <div class="fiter__option-item">
-                            <form class="filter__option-form" onchange="output.value=parseInt(rangeField.value)"
-                                oninput="changeVar(rangeField.value,rangeField.min, rangeField.max)">
-                                <label class="sliderBar">На срок
-                                    <output id="output" value="1">1</output>
-                                    <span class="">
-                                        год/лет
-                                    </span>
-                                </label>
-                                <input id="rangeField" type="range" list="mydata" min="0" max="35" value="1" step="1">
-                        </div>
-                        <div class="fiter__option-item">
-                            <button class="btn btn-filter">
-                                Применить
-                            </button>
-                        </div>
+                    <div class="filter__item" id="checkbox1">
+                        <input class="checkbox" type="checkbox" name="filter" id="vostrebovanie">
+                        <label for="vostrebovanie">Досрочное полное востребование</label>
+                    </div>
+                    <div class="filter__item" id="checkbox2">
+                        <input class="checkbox" type="checkbox" name="filter" id="vznos">
+                        <label for="vznos">Дополнительные взносы</label>
+                    </div>
+                    <div class="filter__item" id="checkbox3">
+                        <input class="checkbox" type="checkbox" name="filter" id="partvostrebovanie">
+                        <label for="partvostrebovanie">Частичное востребование</label>
+                    </div>
+                    <div class="filter__option-item" id="filter1">
+                        <form class="filter__option-form" onchange="output.value = parseInt(rangeField.value)"
+                            oninput="changeVar(rangeField.value,rangeField.min,rangeField.max)">
+                            <label class="sliderBar">Хочу вложить
+                                <output id="output" value="1">1</output>
+                                <span class="">
+                                    тыс. рублей
+                                </span>
+                            </label>
+                            <input id="rangeField" type="range" list="mydata" min="0" max="100" value="1" step="1">
+                        </form>
+                    </div>
+                    <div class="filter__option-item" id="filter2">
+                        <form class="filter__option-form" onchange="output.value=parseInt(rangeField.value)"
+                            oninput="changeVar(rangeField.value,rangeField.min, rangeField.max)">
+                            <label class="sliderBar">На срок
+                                <output id="output" value="1">1</output>
+                                <span class="">
+                                    год/лет
+                                </span>
+                            </label>
+                            <input id="rangeField" type="range" list="mydata" min="0" max="35" value="1" step="1">
+                        </form>
+                    </div>
+                    <div class="filter__option-item" id="filter3">
+                        <button class="btn btn-filter">
+                            Применить
+                        </button>
                     </div>
                 </div>
                     <div class="deposite-kinds__content">
@@ -122,10 +118,10 @@
                         <div class="deposite-kinds__comtainer" id="amount">
                             <p class="deposite-kinds__text">
                                 Сумма дохода
-                                <span class="deposite-kinds__text-second">
+                            </p>
+                            <span class="deposite-kinds__text-second">
                                     9 100 ₽
                                 </span>
-                            </p>
                         </div>
                     </div>
                     <div class="deposite-kinds__content">
