@@ -3,13 +3,13 @@
   margin-right: auto;
   margin-left: auto;
 
-  @media screen and (max-width: 374px) {
+  @media screen and (max-width: 576px) {
     padding: 0 6px;
     box-sizing: border-box;
   }  
-  @media  screen and (min-width: 375px) { 
+  /*@media  screen and (min-width: 375px) { 
     width: 375px;
-  }
+  }*/
   @media screen and (min-width:576px) { 
         width: 534px;
   } 
