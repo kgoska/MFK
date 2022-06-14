@@ -274,10 +274,12 @@
 	row-gap: 20px;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-bottom: 50px;
 	@media screen and (max-width: 767px) {
 		display: block;
 		margin-bottom: 62px;
 	}
+
 	
 }
 
