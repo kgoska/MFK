@@ -125,10 +125,11 @@
 		justify-content: start;
 		align-items: center;
 		&:before{
-			content:"";
-			flex: 0 0 21px;
-			border-top: 1px solid #00A3E0;
-			margin-right: 20px;
+			content: '—';
+			display: inline-block;
+			align-self: flex-start;
+			margin-right: 18px;
+			color: #00A3E0;
 		}
 	}
 	&__button-wrapper {
