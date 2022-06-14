@@ -99,6 +99,7 @@
 
 		&__item {
             display: flex;
+            align-items: center;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -133,9 +134,9 @@
             align-items: center;
         }
 }
-.btn-filter{
-    @media screen and (min-width:520px) {
-        width: -webkit-fill-available; 
+.btn.btn-filter{
+    @media screen and (max-width:520px) {
+        width:-webkit-fill-available;
     }
 }
 // sliderBar.styles at the end of the list
@@ -399,6 +400,7 @@
     line-height: 55px;
     color: #00205B;
     margin-left: 10px;
+    white-space: nowrap;
     @media  screen and (max-width: 1439px) {
         font-size: 40px;
         line-height: 50px;
@@ -407,7 +409,7 @@
         font-size: 30px;
         line-height: 35px;
         margin-left: 5px;
-        white-space: nowrap;
+        
     }
     @media screen and (max-width: 767px) {
         font-size: 24px;
