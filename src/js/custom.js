@@ -31,6 +31,38 @@ function RatioH(){
 		$(this).css("width", (parseFloat($(this).css("height")) * ratioMultiplier).toString() + "px");
 	});
 }
+
+//READMORE START
+$(document).on('click', '.readmore', function(event) {
+	$(this).toggleClass("toggled");
+	ToggleReadmoreObjects($(this));
+});
+function ToggleReadmoreObjects(readmore){
+	let readmoreObjects = $("[data-readmore-identifier="+readmore.attr('id')+"]");
+	if(readmoreObjects.length == 0){
+		return;
+	}
+	for (var i = 0; i < readmoreObjects.length; i++) {
+		let readmoreObject = $(readmoreObjects[i]);
+		if(readmore.hasClass("toggled")){
+
+			readmoreObject.removeClass("hidden");
+		}
+		else{
+			readmoreObject.addClass("hidden");
+		}
+		
+	}
+}
+//First run through for every readmore when page loads
+$(document).ready(function(){
+	$('.readmore').each(function(){
+		ToggleReadmoreObjects($(this));
+	});
+});
+
+//READMORE END
+
 $(window).resize(function(){
 	RatioW();
 	RatioH();
