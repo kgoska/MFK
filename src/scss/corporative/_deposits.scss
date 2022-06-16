@@ -454,6 +454,9 @@
     @media screen and (max-width:1439px) {
         margin: 0px 90px 70px;
     }
+    @media  screen and (max-width:991px){
+        margin: 0px 50px 70px;
+    }
     @media screen and (max-width: 767px) {
         margin: 0px;
         margin-bottom: 90px;
@@ -478,7 +481,7 @@
 .documentation__title{
     align-self: center;
     text-align: center;
-    padding-right: 30px;
+    padding:0px  30px;
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 600;
@@ -489,7 +492,7 @@
 .documentation__list{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+   
     padding: 41px 13px 50px 30px;
     border-left:1px solid #333333;
     @media screen and (max-width: 992px) {
@@ -499,10 +502,7 @@
     }
 }
 .documentation__item{
-    margin-left: 55px;
-    @media screen and (max-width: 992px) {
-        margin: 0;
-    }
+    display: grid;
 }
 .documentation__kind{
     display: flex;

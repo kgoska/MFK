@@ -15,6 +15,14 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-individual {
+  width: 1.021484375em;
+}
+
+.icon-moneds {
+  width: 1.021484375em;
+}
+
 .icon-next {
   width: 0.5830078125em;
 }
