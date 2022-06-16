@@ -258,6 +258,138 @@
 	flex-direction: column;
 	padding-bottom: 50px;
 }*/
+.document-list {
+	margin-bottom: 75px;
+	&__card {
+		background: #FFFFFF;
+		border: 1px solid #D1D1D1;
+		box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
+		padding: 40px;
+		@media screen and (max-width: 768px){
+			padding: 30px 15px;
+		}
+	}
+	&__content-wrapper {
+		display: flex;
+		align-items: center;
+		gap: 50px;
+		@media screen and (max-width: 768px){
+			flex-direction: column;
+			gap:0;
+		}
+	}
+	&__title-block {
+		font-family: 'Helvetica';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 28px;
+
+		color: #003772;
+		align-self: stretch;
+		padding: 20px;
+		border-right: 1px solid #B8B8B8;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		@media screen and (max-width: 768px){
+			border: none;
+			justify-content: start;
+		}
+	}
+	&__list-block {
+		flex-grow: 1;
+		padding: 15px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__document {
+		flex: 0 0 50%;
+		padding: 10px;
+		@media screen and (max-width: 1200px){
+			flex: 0 0 100%;
+		}
+		&__content-wrapper{
+			display: flex;
+
+		}
+		&__icon {
+			margin-right: 10px;
+			margin-top: 6px;
+			&>img{
+				width: 24px;
+			}
+		}
+		&__text-wrapper{
+
+		}
+		&__title {
+			font-family: 'Helvetica';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 21px;
+
+			color: #303030;
+			margin-bottom: 5px;
+			@media screen and (max-width: 768px){
+				font-size: 16px;
+				line-height: 18px;
+			}
+		}
+		&__description {
+			font-family: 'Helvetica';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 16px;
+
+			color: #858585;
+
+		}
+		&.hidden{
+			display: none;
+		}
+	}
+	&__read-more-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__read-more {
+		font-family: 'Helvetica';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 17px;
+
+		color: #333333;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&>img{
+			margin-left: 10px;
+			width: 32px;
+		}
+		&__text-less{
+			display: none;
+		}
+		&__text-more{
+			display: block;
+		}
+		&.toggled {
+			&>img{
+				transform: rotate(180deg);
+			}
+			.document-list__read-more__text-less{
+				display: block;
+			}
+			.document-list__read-more__text-more{
+				display: none;
+			}
+		}
+	}
+}
 .credite-kinds__documents {
 	display: flex;
 	flex-direction: column;
