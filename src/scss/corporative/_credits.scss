@@ -265,6 +265,7 @@
 		border: 1px solid #D1D1D1;
 		box-shadow: 0px 4px 4px rgba(0, 32, 91, 0.15);
 		padding: 40px;
+		margin: 0px 200px 70px 200px;
 		@media screen and (max-width: 768px){
 			padding: 30px 15px;
 		}
@@ -441,7 +442,7 @@
 	&--full{
 		width: 100%;
 	}
-	align-content: center;
+	align-items: center;
 	padding: 41px 0 41px 30px;
 	height: 126px;
 	background: #00205B;
@@ -464,7 +465,7 @@
 	
 }
 .rates__svg{
-	margin-left: 30px;
+	margin-right: 30px;
 	width: 33px;
     height: 30px;
 }
